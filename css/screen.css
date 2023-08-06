@@ -1,0 +1,42 @@
+@media screen and (min-width:768px) {
+    body {
+        width: 750px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    body {
+        width: 970px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        width: 1170px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    nav ul {
+        display: none;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .image {
+        text-align: center;
+
+    }
+
+
+
+}
